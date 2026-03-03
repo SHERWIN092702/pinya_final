@@ -1,0 +1,25 @@
+HOW TO START PROGRAM USING SCRCPY
+
+open  "C:\Users\Acer\Downloads\mediamtx\mediamtx.exe"
+
+start obs
+
+open model 11
+
+run in cmd =  python "C:\Users\Acer\Desktop\Thesis\model11.py" --source RTMP --model "C:\Users\Acer\Desktop\Thesis\yolo_model\yolo_v8\best.pt" --counts "C:\Users\Acer\Desktop\Thesis\detectioncount\detection_counts.json"
+===============================================================================================================================
+HOW TO START USING SCRCPY
+
+cd C:\scrcpy
+scrcpy --max-size 960 --video-bit-rate 2M --no-audio (connect phone to scrcpy)
+then 
+python "C:\Users\Acer\Desktop\Thesis\model11.py" --source scrcpy (for scrcpy)
+
+
+
+=================
+things to do
+
+download all stuff
+change paths in code
+mediamtx for obs rtmp
